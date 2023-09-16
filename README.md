@@ -6,7 +6,7 @@ Emma's birthday is coming up on the 31st January and we're going BIG 💪
 
 I'm thinking of splitting the day down into several sections–we'll have a day and evening activity and people can opt into whichever they'd like.
 
-### Days activities
+### Day activities
 
 #### Alton Towers Water Park
 Emma _loves_ water parks. Having looked at a [few of the best](https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c52-t118-England.html) in the UK, [Alton Towers Water Park](https://www.altontowers.com/explore/waterpark/) seems like a winner. It's:
