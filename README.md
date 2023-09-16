@@ -13,6 +13,7 @@ Emma _loves_ water parks. Having looked at a [few of the best](https://www.tripa
 
 - vaguely centrally located
 - highly rated
+- indoors so it won't be too cold, even in the depths winter
 - flexible–we have the option to tack on Alton Towers in general if we'd like to
 
 This does put us quite a way away from a city for the evening activities though. We could maybe go to Nottingham from here which is ~1 hour's drive. I'd be happy to ferry people across but there are a few logistical headaches, namely:
