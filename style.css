@@ -6,6 +6,15 @@
     --box-shadow: 3px 3px 15px 3px rgb(0, 0, 0, 0.25);
 }
 
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -34,13 +43,39 @@ html, body {
     background-color: var(--other-colour-2);
 }
 
-.schedule-section ol {
+.schedule-section h3 {
+    background-color: var(--primary);
+    padding: 1em;
+    margin-bottom: 0;
+    color: white;
+}
+
+.schedule-section .itinerary {
     list-style-type: none;
     padding-left: 0;
 }
 
-.schedule-section li {
-    margin-top: 1.5rem;
+.schedule-section .itinerary-item {
+    margin: 1rem 0;
+    border: 1px solid var(--primary);
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    background-color: white;
+}
+
+.schedule-section li::after {
+    content: "&#8595;"
+}
+
+.arrow {
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.itinerary-item-container {
+    padding: 0 1.5em 1.5em 1.5em;
 }
 
 .section-container {
