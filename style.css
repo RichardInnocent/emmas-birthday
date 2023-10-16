@@ -1,0 +1,117 @@
+:root {
+    --primary: #EF7C8E;
+    --secondary: #D8A7B1;
+    --other-colour-1: #B6E2D3;
+    --other-colour-2: #FAE8E0;
+    --box-shadow: 3px 3px 15px 3px rgb(0, 0, 0, 0.25);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heading {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.picture-of-emma {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: var(--box-shadow);
+}
+
+.schedule-section, .faq-section {
+    background-color: var(--other-colour-2);
+}
+
+.schedule-section ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.schedule-section li {
+    margin-top: 1.5rem;
+}
+
+.section-container {
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    max-width: 600px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
+
+h1, h2 {
+    font-family: 'Tangerine', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 0;
+}
+
+.theme-section-overlay {
+    background-color: rgb(255, 255, 255, 0.6)
+}
+
+.map {
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    min-height: 400px;
+}
+
+.theme-image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: var(--box-shadow);
+}
+
+.theme-image-1, .theme-image-2, .theme-image-3 {
+    height: 40vh;
+    min-height: 200px;
+    max-height: 600px;
+}
+
+.theme-image-1 {
+    background-image: url("https://images.unsplash.com/photo-1576261240726-b4782dfcd02e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.theme-image-2 {
+    background-image: url("https://images.unsplash.com/photo-1624095433934-1bee2f4730fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.theme-image-3 {
+    background-image: url("https://images.unsplash.com/photo-1633868060075-d77201a3bbab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.faq-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
