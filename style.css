@@ -15,6 +15,11 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -37,6 +42,29 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     box-shadow: var(--box-shadow);
+}
+
+.summary {
+    border: 1px solid var(--primary);
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 1rem 0 auto;
+}
+
+.summary table {
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+}
+
+.summary th {
+    background-color: var(--primary);
+    color: white;
+}
+
+.summary th, .summary td {
+    padding: 1em;
+    border: 1px solid var(--primary);
 }
 
 .schedule-section, .faq-section {
@@ -121,6 +149,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 .theme-image-1, .theme-image-2, .theme-image-3 {
