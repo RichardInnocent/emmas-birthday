@@ -4,6 +4,8 @@
     --other-colour-1: #B6E2D3;
     --other-colour-2: #FAE8E0;
     --box-shadow: 3px 3px 15px 3px rgb(0, 0, 0, 0.25);
+    --transition: transform .2s;
+    --scale-up: scale(1.025);
 }
 
 a {
@@ -18,6 +20,11 @@ a:hover {
 img {
     border-radius: 1rem;
     overflow: hidden;
+    transition: var(--transition);
+}
+
+img:hover {
+    transform: var(--scale-up);
 }
 
 html, body {
@@ -78,22 +85,23 @@ html, body {
     color: white;
 }
 
-.schedule-section .itinerary {
+.itinerary {
     list-style-type: none;
     padding-left: 0;
 }
 
-.schedule-section .itinerary-item {
+.itinerary-item {
     margin: 1rem 0;
     border: 1px solid var(--primary);
     border-radius: 1em;
     overflow: hidden;
     box-shadow: var(--box-shadow);
     background-color: white;
+    transition: var(--transition);
 }
 
-.schedule-section li::after {
-    content: "&#8595;"
+.itinerary-item:hover {
+    transform: var(--scale-up);
 }
 
 .arrow {
@@ -153,28 +161,34 @@ main {
     overflow: hidden;
 }
 
-.theme-image-1, .theme-image-2, .theme-image-3 {
+.theme-image-grid div {
+    overflow: hidden;
+}
+
+.theme-image-grid div div {
+    background-size: cover;
+    background-position: center;
+    transition: var(--transition);
+    overflow: hidden;
     height: 40vh;
     min-height: 200px;
     max-height: 600px;
 }
 
+.theme-image-grid div div:hover {
+    transform: scale(1.1);
+}
+
 .theme-image-1 {
     background-image: url("https://images.unsplash.com/photo-1576261240726-b4782dfcd02e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80");
-    background-size: cover;
-    background-position: center;
 }
 
 .theme-image-2 {
     background-image: url("https://images.unsplash.com/photo-1624095433934-1bee2f4730fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
-    background-size: cover;
-    background-position: center;
 }
 
 .theme-image-3 {
     background-image: url("https://images.unsplash.com/photo-1633868060075-d77201a3bbab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
-    background-size: cover;
-    background-position: center;
 }
 
 .faq-section ul {
