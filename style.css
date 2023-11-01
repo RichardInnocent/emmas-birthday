@@ -21,6 +21,7 @@ img {
     border-radius: 1rem;
     overflow: hidden;
     transition: var(--transition);
+    width: 100%;
 }
 
 img:hover {
