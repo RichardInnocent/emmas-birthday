@@ -79,11 +79,23 @@ html, body {
     background-color: var(--other-colour-2);
 }
 
-.schedule-section h3 {
+.itinerary-header {
     background-color: var(--primary);
     padding: 1em;
     margin-bottom: 0;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itinerary-header h3 {
+    margin-bottom: 0;
+}
+
+.itinerary-header-icon {
+    margin-left: auto;
+    font-size: 1.5em;
 }
 
 .itinerary {
